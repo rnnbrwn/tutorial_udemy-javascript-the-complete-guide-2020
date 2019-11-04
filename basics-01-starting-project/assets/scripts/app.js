@@ -1,6 +1,7 @@
 const defaultResult = 0;
-
 let currentResult = 0;
+
+function add(a, b) {}
 
 currentResult = currentResult + 10;
 
