@@ -15,7 +15,7 @@ result = 3 / result;
 
 // Think about the value stored in the user input variable you also created - did that value change?
 
-// No, it did not.
+// RB: No, it did not.
 
 // alert() the result and the user input variables (in two separate alert() calls).
 alert(fictionalUserInput);
