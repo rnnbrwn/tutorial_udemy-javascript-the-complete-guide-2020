@@ -1,2 +1,1 @@
-// a comment
-alert('This works!');
+let currentResult = 0;
