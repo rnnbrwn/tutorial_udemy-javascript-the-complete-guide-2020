@@ -1,9 +1,12 @@
 const defaultResult = 0;
 let currentResult = 0;
 
-function add(a, b) {}
+function add(a, b) {
+	const result = a + b;
+	return result;
+}
 
-currentResult = currentResult + 10;
+currentResult = add(1, 2);
 
 // Changed concatenated string to Template Literal
 let calculatorDescription = `${defaultResult} + 10`;
