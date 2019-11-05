@@ -41,8 +41,13 @@ function calculateResult(calculationType) {
     currentResult /= enteredNumber;
     mathOperator = '/';
   }
-  createAndWriteOutput(mathOperator, initialResult, enteredNumber);
-  writeToLog(calculationType, initialResult, enteredNumber, currentResult);
+
+  if (calculationType === 'ADD' || calculationType === 'SUBTRACT' || calculationType === 'MULTIPLY' || calculationType === 'DIVIDE') {
+    return
+  } else {
+    createAndWriteOutput(mathOperator, initialResult, enteredNumber);
+    writeToLog(calculationType, initialResult, enteredNumber, currentResult);
+  }
 }
 
 function add() {
