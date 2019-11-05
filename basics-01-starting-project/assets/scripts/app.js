@@ -2,6 +2,7 @@ const defaultResult = 0;
 let currentResult = 0;
 let logEntries = [];
 
+// Supporting functions
 function getUserNumberInput() {
 	return +userInput.value;
 }
@@ -22,6 +23,7 @@ function writeToLog(operationIdentifier, prevResult, operationNumber, newResult)
 	console.log(logEntries);
 }
 
+// Primary functions
 function add() {
 	const enteredNumber = getUserNumberInput();
 	const initialResult = currentResult;
