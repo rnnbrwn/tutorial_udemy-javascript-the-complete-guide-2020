@@ -22,5 +22,3 @@ function attackHandler() {
 }
 
 attackBtn.addEventListener('click', attackHandler);
-
-;kmp
